@@ -5,7 +5,7 @@ eureka:
     service-url:
       defaultZone: http://eureka-0.eureka.default.svc.cluster.local:8761/eureka
   instance:
-      hostname: localhost
+      hostname: eureka-0
 okta:
   oauth2:
     issuer: https://dev-02875322.okta.com/oauth2/default
