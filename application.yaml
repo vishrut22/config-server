@@ -3,7 +3,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://eureka-0.eureka.default.svc.cluster.local:8761/eureka
+      defaultZone: ${EUREKA_SERVER_ADDRESS}
   instance:
       hostname: eureka-0
 okta:
