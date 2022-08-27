@@ -1,6 +1,6 @@
 eureka:
   instance:
-    preferIpAddress: true
+  #  preferIpAddress: true
     hostname: localhost
   client:
     register-with-eureka: true
