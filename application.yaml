@@ -5,7 +5,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: ${EUREKA_SERVER_ADDRESS}
+      defaultZone: ${EUREKA_SERVER_ADDRESS:localhost}
 okta:
   oauth2:
     issuer: https://dev-02875322.okta.com/oauth2/default
